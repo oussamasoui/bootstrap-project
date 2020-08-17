@@ -19,6 +19,8 @@ h3{color:white;
 div.content {
   text-align: center;
 }
-div.but {
-  text-align: center;
+
+label{
+	font-size: 24px;
+	color:white;
 }
