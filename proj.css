@@ -3,3 +3,22 @@ h1{color:white;
    text-align: center;}
 h3{color:white;
    text-align: center}
+   #img1 {
+  width: 30%;
+  height: auto;
+}
+ #img2 {
+  width: 30%;
+  height: auto;
+}
+ #img3 {
+  width: 30%;
+  height: auto;
+}
+
+div.content {
+  text-align: center;
+}
+div.but {
+  text-align: center;
+}
