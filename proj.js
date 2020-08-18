@@ -19,7 +19,7 @@
 	var value = $('#cc').val();
 	var second = $("<span></span>");
 	second.text(value);
-	second.css({"color":"white","font-family":"Dancing", "font-size": "48px", "text-shadow": "4px 4px 4px #FFFAFA"});
+	second.css({"color":"FireBrick","font-family":"Dancing", "font-size": "48px", "text-shadow": "4px 4px 4px #FFFAFA"});
 	$(".centered").append(second)
 
 });
