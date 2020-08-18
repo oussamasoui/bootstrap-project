@@ -1,26 +1,82 @@
-body {background-color: LightSeaGreen;}
-h1{color:white;
-   text-align: center;}
-h3{color:white;
-   text-align: center}
-   #img1 {
-  width: 30%;
-  height: auto;
+body {
+ background-image: url("cube.jpg");
+ 
+  background-size: auto;
+ 
 }
- #img2 {
-  width: 30%;
-  height: auto;
-}
- #img3 {
-  width: 30%;
-  height: auto;
-}
+h1{color:PowderBlue;
+   text-align: center;  
+    font-family: 'Balsamiq Sans', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #0000CD;
 
-div.content {
+  }
+h2{color:LightGrey;
+   text-align: center;
+    font-family: 'Bangers', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #0000CD;
+}
+label{
+	color:LightGrey;
+   text-align: center;
+    font-family: 'Bangers', serif;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #0000CD;
+}
+div.cont {
   text-align: center;
 }
+ #img1 {
+  width: 50%;
+  height: auto;    
+}
+div.im1 {
+  resize: both;
+  overflow: auto;
+}
+ #img2 {
+  width: 50%;
+  height: auto;
 
-label{
-	font-size: 24px;
-	color:white;
+}
+div.im2 {
+  resize: both;
+  overflow: auto;
+}
+ #img3 {
+  width: 50%;
+  height: auto;
+}
+div.im3 {
+  resize: both;
+  overflow: auto;
+}
+.center{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.tex{
+  color:PowderBlue;
+   text-align: center;  
+    font-family: 'Balsamiq Sans', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #0000CD;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
